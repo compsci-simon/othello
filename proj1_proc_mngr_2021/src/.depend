@@ -1,0 +1,4 @@
+main.o: main.c parser.h loader.h manager.h
+parser.o: parser.c parser.h syntax.h loader.h
+loader.o: loader.c loader.h asm.h syntax.h
+manager.o: manager.c manager.h loader.h asm.h

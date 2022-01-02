@@ -1,2 +1,0 @@
-# othello
-Concurrent Othello player
